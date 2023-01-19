@@ -5,7 +5,7 @@ body{
 
 
 #title, .subtitle, .post_title {
-    color: blue;
+    color: rgb(255, 0, 123);
 }
 
 
@@ -13,13 +13,20 @@ body{
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 
 .post{
     background: white;
-    padding: 10px;
+    padding: 1px;
     border-top: 20px dotted greenyellow;
     border-bottom: 20px dotted greenyellow;
-    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.post_content{
+    margin: 0px;
+    margin-bottom: 15px;
 }
